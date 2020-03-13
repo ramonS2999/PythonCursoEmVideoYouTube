@@ -1,0 +1,5 @@
+nome = str(input('DIGITE SEU NOME COMPLETO: ')).upper().strip()
+print('PRAZER EM CONHECELO!')
+div = nome.split()
+print('O PRIMEIRO NOME É',div[0])
+print('O ILTIMO É',div[len(div)-1])

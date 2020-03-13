@@ -1,0 +1,6 @@
+n = input('Digite algo: ')
+print(type(n))
+print('alphanumerico ',n.isalnum(),'\ndecimal ', n.isdecimal(),'\nmaiusculo ',n.isupper())
+print('digito',n.isdigit(),'\nidentidade',n.isidentifier(),'\nprint',n.isprintable())
+print('decimal',n.isdecimal(),'\nminusculo', n.islower(),'\nnumeral', n.isnumeric())
+print('espaço',n.isspace(),'\ncapitalizada',n.istitle())
